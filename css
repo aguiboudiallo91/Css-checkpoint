@@ -1,0 +1,106 @@
+
+h2 {
+	color: rgb(9, 7, 50);
+	font-family: 'Roboto';
+    text-decoration: underline;
+    
+}
+
+
+
+body {
+
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(230, 217, 200);
+}
+
+
+ .navbar {
+    display: inline;
+    background: #bdbdc8;
+    width: 70px;
+    height: 90px;
+    border: 0px solid rgb(17, 17, 17);
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* Selecting multiple HTML element types 
+h1, p{
+    border: 1px solid black;
+}
+
+/* Selecting styles to be applied to several classes 
+.FirstItem, .LastItem {
+   font-size: 1.2em;
+}
+
+/* Using multiple Kinds of selectors 
+h3, .red, #redElement {
+   color: red
+}
+
+
+
+
+
+*/
+
+     /* unvisited link */
+     a:link {
+        color: tomato;
+    }
+
+    /* visited link */
+    a:visited {
+        color: rgb(255, 71, 71);
+    }
+
+    /* mouse over element */
+    a:hover {
+        color: rgb(68, 119, 5);
+    } 
+
+    /* selected link */
+    a:active{
+        color: #0000FF
+    }
+
+
+   
+
+    .inline {
+        display: inline;
+        background: #0000FF;
+        width: 50px;
+        height: 50px;
+        border: 1px solid red;
+    }
+
+
+    .block {
+        display: block;
+        background: #ff00ae;
+        width: 50px;
+        height: 50px;
+        border: 1px solid red;
+        
+        
+    }
+
+.inline-block {
+
+    display: inline-block;
+    background: yellow;
+    width: 50px;
+        height: 50px;
+        border: 1px solid red;
+}
